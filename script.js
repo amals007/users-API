@@ -10,6 +10,7 @@ function populateValues(users){
         <td>${user.email}</td>
         <td>${user.company.name}</td>
         <td>
+        
         <button type="button" class="btn btn-outline-primary" value=${user.id} onclick="fetchUser(event)">Detail</button>
         </td>
         </tr>
